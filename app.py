@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyBZ4FcsOLlvnJDKyU3pS6UU7WeoyqvooY8")
+genai.configure(api_key="YOUR APU KEY")
 model = genai.GenerativeModel("models/gemini-1.5-flash")
 
 finance_keywords = [
